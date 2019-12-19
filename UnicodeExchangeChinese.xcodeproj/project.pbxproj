@@ -13,6 +13,7 @@
 		671D5A8F23AB5BCC0069D0CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 671D5A8E23AB5BCC0069D0CF /* Assets.xcassets */; };
 		671D5A9223AB5BCC0069D0CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 671D5A9023AB5BCC0069D0CF /* LaunchScreen.storyboard */; };
 		671D5A9523AB5BCC0069D0CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 671D5A9423AB5BCC0069D0CF /* main.m */; };
+		671D5AA023AB5CD10069D0CF /* BWUnicodeExchangeChinese.m in Sources */ = {isa = PBXBuildFile; fileRef = 671D5A9F23AB5CD10069D0CF /* BWUnicodeExchangeChinese.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		671D5A9123AB5BCC0069D0CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		671D5A9323AB5BCC0069D0CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		671D5A9423AB5BCC0069D0CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		671D5A9E23AB5CD10069D0CF /* BWUnicodeExchangeChinese.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWUnicodeExchangeChinese.h; sourceTree = "<group>"; };
+		671D5A9F23AB5CD10069D0CF /* BWUnicodeExchangeChinese.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWUnicodeExchangeChinese.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		671D5A8423AB5BCA0069D0CF /* UnicodeExchangeChinese */ = {
 			isa = PBXGroup;
 			children = (
+				671D5A9E23AB5CD10069D0CF /* BWUnicodeExchangeChinese.h */,
+				671D5A9F23AB5CD10069D0CF /* BWUnicodeExchangeChinese.m */,
 				671D5A8523AB5BCA0069D0CF /* AppDelegate.h */,
 				671D5A8623AB5BCA0069D0CF /* AppDelegate.m */,
 				671D5A8823AB5BCA0069D0CF /* ViewController.h */,
@@ -144,6 +149,7 @@
 				671D5A8A23AB5BCA0069D0CF /* ViewController.m in Sources */,
 				671D5A9523AB5BCC0069D0CF /* main.m in Sources */,
 				671D5A8723AB5BCA0069D0CF /* AppDelegate.m in Sources */,
+				671D5AA023AB5CD10069D0CF /* BWUnicodeExchangeChinese.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
